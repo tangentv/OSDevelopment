@@ -1,5 +1,4 @@
 # OSDevelopment
-Learning OS Development
 
 For this project we need to learn the following - 
 
