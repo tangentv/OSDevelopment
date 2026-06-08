@@ -1,6 +1,6 @@
 # OSDevelopment
 
-For this project we need to learn the following - \
+For this project we need to learn the following - 
 
 Phase 0 - Prepare MAC\
     brew install qemu\
@@ -8,9 +8,9 @@ Phase 0 - Prepare MAC\
     brew install make\
     brew install git\
     brew install llvm\
-    brew install gdb\
+    brew install gdb
 
-Install an ARM64 bare-metal compiler for Raspberry - Pi, preffered toolchain is - aarch64-none-elf-gcc\
+Install an ARM64 bare-metal compiler for Raspberry - Pi, preffered toolchain is - aarch64-none-elf-gcc
 
 Phase 1 - Build a booting kernel - (already implemented)\
 Phase 2 - UART Driver\
@@ -36,9 +36,5 @@ Phase 21 - Multiprocessing -[Use all Raspberry Pi cores, add Spinlocks, Mutexes]
 
 
 Command to run the current code - 
-"qemu-system-aarch64 \
-    -M virt \
-    -cpu cortex-a53 \
-    -kernel kernel8.img \
-    -nographic"
+ qemu-system-aarch64 -M virt -cpu cortex-a53 -kernel kernel8.img -nographic
 
